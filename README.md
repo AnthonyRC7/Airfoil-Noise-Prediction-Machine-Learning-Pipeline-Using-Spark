@@ -1,7 +1,10 @@
 # Airfoil-Noise-Prediction-Machine-Learning-Pipeline-Using-Spark
 
-## Project Description
-This project implements a complete machine learning pipeline using Apache Spark (PySpark) to process and analyze the NASA Airfoil Self-Noise dataset. It demonstrates how to handle large-scale data, perform data cleaning, apply machine learning, evaluate the model, and persist it—all using PySpark.
+## Problem Statement
+Aerodynamic design requires precise modeling to optimize airfoil efficiency for planes and sports cars. However, data scientists face challenges due to heterogeneous data formats and the complexity of integrating machine learning workflows into the engineering process. Without a streamlined data pipeline, extracting meaningful insights for airfoil noise prediction becomes inefficient, limiting innovation in aerodynamic design.
+
+## Goal
+This project aims to clean, process, and unify airfoil noise data by developing an ETL pipeline that prepares structured datasets for machine learning. Using the modified NASA Airfoil Self Noise dataset, the pipeline will handle data cleaning, feature engineering, and model training to predict SoundLevel based on aerodynamic parameters. The final ML model will be evaluated and persisted, enabling accurate noise predictions to enhance airfoil design efficiency.
 
 ## Objectives
 
